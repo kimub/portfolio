@@ -2,10 +2,17 @@ import SectionTitle from './SectionTitle';
 
 export default function About() {
   return (
-    <section id='about' className='wrapper h-screen space-y-28 px-8 py-24'>
+    <section id='about' className='wrapper space-y-28 px-8 py-24'>
       <SectionTitle title='About' />
       <div className='space-y-24'>
-        <div className='space-y-4'>
+        <div
+          className='space-y-4'
+          data-aos='fade-up'
+          data-aos-offset='200'
+          data-aos-delay='300'
+          data-aos-duration='1800'
+          data-aos-once
+        >
           <h3 className='text-3xl font-bold'>
             저는 <span className='text-primary'>이런 사람</span>입니다.
           </h3>
@@ -20,12 +27,18 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className='ml-48 space-y-4'>
+        <div
+          className='ml-48 space-y-4'
+          data-aos='fade-up'
+          data-aos-offset='200'
+          data-aos-delay='600'
+          data-aos-duration='1800'
+          data-aos-once
+        >
           <h3 className='text-3xl font-bold'>
             저는 다음과 같은 <span className='text-primary'>목표</span>를 가지고
             있습니다.
           </h3>
-
           <div className='space-y-1 text-lg font-semibold'>
             <p>1년 차에는 맡은 일을 완벽히 완수하는 것</p>
             <p>
@@ -38,7 +51,14 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className='ml-96 space-y-4'>
+        <div
+          className='ml-96 space-y-4'
+          data-aos='fade-up'
+          data-aos-offset='200'
+          data-aos-delay='900'
+          data-aos-duration='1800'
+          data-aos-once
+        >
           <h3 className='text-3xl font-bold'>
             저는 이런 <span className='text-primary'>기술</span>을 다루고
             있습니다.

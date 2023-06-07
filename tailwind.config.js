@@ -12,8 +12,18 @@ module.exports = {
         secondary: '#f7f7f7',
         layer: 'rgba(7, 2, 4, 0.6)',
       },
-      fontFamily: {
-        sans: ['var(--font-pretendard)'],
+      keyframes: {
+        wiggle: {
+          '0%': {
+            transform: 'rotate(-12deg) translate(160px, 160px)',
+            opacity: 0,
+          },
+          '50%': { transform: 'rotate(12deg)' },
+          '100%': {
+            transform: 'rotate(-12deg) translate(160px, 160px)',
+            opacity: 1,
+          },
+        },
       },
     },
   },

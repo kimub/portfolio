@@ -3,12 +3,16 @@
 import { useScrollHeaderColor } from '@/hooks/useScrollHeaderColor';
 
 export default function Header() {
-  useScrollHeaderColor();
+  const isScroll = useScrollHeaderColor();
 
   return (
     <header className='fixed top-0 z-50 w-full'>
-      <nav className='wrapper'>
-        <ul className='text-semibold flex justify-end space-x-6 px-8 py-6 text-lg text-white'>
+      <nav className='wrapper '>
+        <ul
+          className={`text-semibold flex justify-end space-x-6 px-8 py-6 text-lg transition-all duration-300 ${
+            isScroll ? 'text-black' : 'text-white'
+          }`}
+        >
           <li>
             <a href='#home' className='cursor-pointer'>
               Home

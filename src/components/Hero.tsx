@@ -14,7 +14,7 @@ export default function Hero() {
           <h2 className='origin-center translate-x-40 translate-y-40 rotate-12 text-8xl text-white'>
             Hello!
           </h2>
-          <h2 className='origin-center translate-x-[32rem] translate-y-12 -rotate-12 text-8xl'>
+          <h2 className='origin-center translate-x-[24rem] translate-y-12 -rotate-12 text-8xl'>
             클라우드 개발자
           </h2>
           <h2 className='origin-center translate-x-12 translate-y-80 rotate-[13deg]'>
@@ -23,10 +23,13 @@ export default function Hero() {
           <p className='origin-center translate-x-[52rem] -rotate-12 text-4xl'>
             ヽ(´▽`)ﾉ
           </p>
-          <div className='flex w-full justify-center p-8'>
-            <a href='#about'>
+          <div className='relative flex w-full items-center justify-center p-8'>
+            <a href='#about' className='animate-bounce'>
               <Image src={cloud} alt='about-link' width={64} height={64} />
             </a>
+            <p className='absolute right-8 text-base font-semibold'>
+              Designed by Freefik
+            </p>
           </div>
         </div>
       </div>
