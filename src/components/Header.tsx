@@ -1,9 +1,16 @@
 'use client';
 
 import { useScrollHeaderColor } from '@/hooks/useScrollHeaderColor';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Header() {
   const isScroll = useScrollHeaderColor();
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <header className='fixed top-0 z-50 w-full'>
