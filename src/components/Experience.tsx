@@ -29,7 +29,7 @@ export default function Experience() {
               <td>
                 모바일 선물하기 서비스(어드민),
                 <br />
-                모바일 식권서비스(어드민),
+                모바일 식권 서비스(어드민),
                 <br />
                 키오스크 서비스(퍼블리싱)
               </td>
