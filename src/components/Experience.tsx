@@ -29,9 +29,9 @@ export default function Experience() {
               <td>
                 모바일 선물하기 서비스(어드민),
                 <br />
-                모바일 식권 서비스(어드민),
+                모바일 식권 서비스(가맹점, 어드민),
                 <br />
-                키오스크 서비스(퍼블리싱)
+                키오스크 서비스(가맹점)
               </td>
             </tr>
             <tr>
@@ -43,7 +43,7 @@ export default function Experience() {
       </div>
       <div className='mt-16 space-y-12'>
         <ProjectItem
-          title='모바일 선물하기 서비스 어드민 개선(23.02~03)'
+          title='모바일 선물하기 서비스 어드민 (23.02~03)'
           description={[
             '상태를 더 효율적으로 관리하기 위해 전역 상태와 서버 상태를 분리 데이터 요청을 캐시하여 데이터 요청을 줄이기 위해 React-Query를 사용하였습니다.',
             'Supense와 ErrorBoundary를 사용하여 컴포넌트 내부에 로딩, 에러 코드들을 분리하여 컴포넌트를 읽기 쉽게 만들었습니다.',
@@ -61,7 +61,7 @@ export default function Experience() {
           delay='750'
         />
         <ProjectItem
-          title='키오스크 서비스 가맹점 퍼블리싱 (23.04~05)'
+          title='키오스크 서비스 가맹점 (23.04~05)'
           description={['모바일, 태블릿, 키오스크 반응형 퍼블리싱 업무 수행']}
           delay='1000'
         />
