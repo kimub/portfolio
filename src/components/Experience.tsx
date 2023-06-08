@@ -3,7 +3,7 @@ import SectionTitle from './SectionTitle';
 
 export default function Experience() {
   return (
-    <section id='experience' className='wrapper px-8 py-24'>
+    <section id='experience' className='wrapper px-8 py-24  md:px-16'>
       <SectionTitle title='Experience' />
       <div
         className='mt-28'

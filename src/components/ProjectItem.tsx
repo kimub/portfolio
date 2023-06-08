@@ -13,8 +13,8 @@ export default function ProjectItem({ title, description, delay }: Props) {
       data-aos-duration='1800'
       data-aos-once
     >
-      <h4 className='text-xl font-bold'>{title}</h4>
-      <ul className='mt-2 list-inside text-[1.1rem] font-semibold'>
+      <h4 className='text-xl font-bold md:text-2xl'>{title}</h4>
+      <ul className='mt-4 list-inside space-y-2 text-base font-semibold md:text-[1.1rem]'>
         {description.map((desc) => (
           <li key={desc} className='list-disc'>
             {desc}

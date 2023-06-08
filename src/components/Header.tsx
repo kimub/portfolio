@@ -13,10 +13,10 @@ export default function Header() {
   }, []);
 
   return (
-    <header className='fixed top-0 z-50 w-full'>
+    <header className='fixed top-0 z-50 hidden w-full md:block'>
       <nav className='wrapper '>
         <ul
-          className={`text-semibold flex justify-end space-x-6 px-8 py-6 text-lg transition-all duration-300 ${
+          className={`text-semibold flex justify-end space-x-6 px-8 py-6 text-lg transition-all duration-200 ${
             isScroll ? 'text-black' : 'text-white'
           }`}
         >
